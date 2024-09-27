@@ -16,7 +16,7 @@ const App = () => {
         </div>
         <div className="info-row">
           <span className="label">Height:</span>
-          <span className="value">5.9</span>
+          <span className="value">5ft 9in</span>
         </div>
         <div className="info-row">
           <span className="label">Graduation:</span>
@@ -36,7 +36,7 @@ const App = () => {
         </div>
         <div className="info-row">
           <span className="label">Gothram:</span>
-          <span className="value">Midhunakula, Budhunakula (Secondary)</span>
+          <span className="value">Midhunakula</span>
         </div>
         <div className="info-row">
           <span className="label">Contact:</span>
