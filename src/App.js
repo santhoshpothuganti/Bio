@@ -32,7 +32,7 @@ const App = () => {
         </div>
         <div className="info-row">
           <span className="label">Star:</span>
-          <span className="value">Punarvasu</span>
+          <span className="value">Shathabisha</span>
         </div>
         <div className="info-row">
           <span className="label">Gothram:</span>
