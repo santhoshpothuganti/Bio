@@ -1,38 +1,39 @@
-.App {
-  text-align: center;
+.biodata-container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.info-section {
+  margin-bottom: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.info-row {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
+  padding: 4px 0;
 }
 
-.App-link {
-  color: #61dafb;
+.label {
+  width: 40%; /* Ensures all labels are aligned to the left */
+  font-weight: bold;
+  text-align: left;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.value {
+  width: 60%; /* Ensures values are aligned to the right of the labels */
+  text-align: left;
+}
+
+p {
+  font-size: 16px;
+}
+
+h2, h3 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
 }
