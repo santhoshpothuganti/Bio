@@ -72,7 +72,7 @@ const App = () => {
         </div>
         <div className="info-row">
           <span className="label">Sister's Name:</span>
-          <span className="value">Sneha Pothuganti</span>
+          <span className="value">Sneha Pothuganti(Married, Software Engineer)</span>
         </div>
         <div className="info-row">
           <span className="label">Address:</span>
